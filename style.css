@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+nav {
+  background-color: #16182c;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.navbar-brand {
+  font-weight: lighter;
+  padding-top: 14px;
+}
+.nav-link {
+  color: white !important;
+  padding-left: 4px;
+  padding-top: 20px;
+}
+.nav-link:hover {
+  color: darkorange !important;
+}
+
+/* navbar selesai */
+
+/* INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX */
+/* produk */
+.bg {
+  background-color: #16182c;
+}
+
+.fl video {
+  width: 100%;
+  margin-top: 80px;
+  border-top: 1px solid rgba(250, 250, 250, 0.15);
+}
+.par1 {
+  z-index: 2;
+  position: absolute;
+  color: white;
+  margin: 150px 0px 0px 90px;
+}
+.par1 h1 {
+  font-weight: lighter;
+}
+.btn {
+  background-color: darkorange;
+  color: white;
+  border-radius: 25px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: rgb(237, 130, 0);
+  font-weight: medium;
+}
+.bun {
+  margin-top: 8px;
+  border: 2px solid darkorange;
+  padding: 8px 15px 9px 15px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.bun:hover {
+  background-color: darkorange;
+  font-weight: medium;
+  color: whitesmoke;
+}
+.pro {
+  background-color: #16182c;
+}
+.pro1 img,
+.pro2 img {
+  width: 90%;
+  height: 50vh;
+  margin-top: -100px;
+  margin-left: 30px;
+  position: relative;
+  background-color: #16182c;
+}
+.par2 {
+  position: relative;
+  margin-top: -300px;
+  color: white;
+}
+.par2 h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}
+span {
+  padding-left: 5px;
+  color: darkorange;
+}
+.gbr3 img {
+  width: 130px;
+  padding-bottom: 5px;
+  margin-left: -10px;
+}
+.par3 {
+  position: absolute;
+  right: 0;
+  margin-top: -300px;
+  padding-left: 580px;
+  color: white;
+}
+.learn:hover {
+  border-right: 1px solid white;
+  margin-left: 2px;
+}
+/* produk kelar akhirnya yaolo */
+
+/* ini apaan ya */
+.apya {
+  background-color: #16182c;
+  color: white;
+  padding: 150px;
+  text-align: center;
+}
+.gaje {
+  padding: 300px;
+  background-color: whitesmoke;
+}
+.gans {
+  position: relative;
+  margin-top: -380px;
+}
+/* selesai */
+
+/* jumb */
+.jumb {
+  background-color: #16182c;
+  padding: 80px 50px 50px 170px;
+  position: relative;
+  margin-top: -300px;
+}
+.flex {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: darkgrey !important;
+  font-weight: bold;
+}
+.jumb p {
+  color: white;
+}
+.jumb .h2 {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 4px;
+}
+.jumb .h2:hover {
+  color: darkorange;
+}
+.jumb img {
+  width: 90%;
+  padding: 5px;
+}
+.gbr8 {
+  position: relative;
+  margin-left: -75px;
+  margin-top: 5px;
+  height: 124px;
+  background-color: white;
+  text-decoration: none;
+}
+.gbr9 {
+  position: relative;
+  margin-left: -75px;
+  margin-top: 5px;
+  height: 124px;
+  background-color: white;
+}
+
+.gbr10 {
+  position: relative;
+  margin-left: -75px;
+  margin-top: 5px;
+  height: 124px;
+  background-color: white;
+}
+.recentstory:hover {
+  color: white;
+  background-color: #ff9cff;
+  border-radius: 3px;
+  font-weight: bold;
+}
+/* selesai */
+/* INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX SELESAI */
+
+/*  BIODATA BIODATA BIODATA BIODATA BIODATA BIODATA BIODATA BIODATA BIODATA BIODATA BIODATA */
+.boxcard {
+  background-color: #16182c;
+}
+.cardbox {
+  background-image: url(../properties/cardimg.jpg);
+  margin-top: 65px;
+  padding-bottom: 350px;
+  border-top: 1px solid darkslategrey;
+}
+.cardbox img {
+  width: 30%;
+  padding: 50px;
+  margin-top: 100px;
+  color: #ff9cff;
+  border-right: 1px solid;
+}
+.cardbox p {
+  width: 50%;
+  color: white;
+  position: relative;
+  margin: -30px 0px 0px 125px;
+  font-weight: bolder;
+}
+.vcard {
+  position: relative;
+  color: white;
+  display: block;
+  text-align: left;
+  width: 60%;
+  margin: -350px -300px 0px 500px;
+}
+/*  BIODATA BIODATA BIODATA BIODATA BIODATA BIODATA BIODATA BIODATA BIODATA BIODATA */
+
+/* FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM*/
+.formbox {
+  background-color: #16182c;
+  padding: 200px;
+  margin-top: 65px;
+  border-top: 1px solid rgba(250, 250, 250, 0.15);
+}
+.formborder {
+  border-top: 1px solid rgba(250, 250, 250, 0.15);
+  border-left: 1px solid rgba(250, 250, 250, 0.15);
+  position: relative;
+  margin-top: -130px;
+  margin-left: -50px;
+  background-color: #23283c;
+  padding: 0px 30px 30px 30px;
+  box-shadow: 8px 8px 1px black;
+}
+.boxform {
+  position: relative;
+  width: 70%;
+}
+.form-group {
+  color: antiquewhite;
+  padding-top: 20px;
+}
+/* FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM*/
+
+/* Galeri galeri galeri galeri galeri galeri galeri galeri galeri galeri galeri galeri */
+.gal {
+  position: relative;
+  background-color: #16182c;
+  margin-top: 65px;
+  border-top: 1px solid rgba(250, 250, 250, 0.15);
+  padding: 60px;
+}
+.gal h1 {
+  color: white;
+  text-align: center;
+}
+.gallerybox {
+  position: relative;
+  padding-top: 250px;
+  padding-bottom: 200px;
+  margin-top: -80px;
+}
+
+.shop1 {
+  background-color: white;
+  width: 100%;
+  height: 60vh;
+}
+.shop1:hover {
+  box-shadow: 8px 8px 1px darkgoldenrod;
+}
+.shop2 {
+  background-color: white;
+  width: 100%;
+  height: 60vh;
+}
+.shop2:hover {
+  box-shadow: 8px 8px 1px palevioletred;
+}
+.shop3 {
+  background-color: white;
+  width: 100%;
+  height: 60vh;
+}
+.shop3:hover {
+  box-shadow: 8px 8px 1px blue;
+}
+.shop4 {
+  background-color: white;
+  width: 100%;
+  height: 60vh;
+}
+.shop4:hover {
+  box-shadow: 8px 8px 1px orange;
+}
+.gallerybox img {
+  width: 50%;
+  position: relative;
+  margin-top: -80px;
+  padding-bottom: 10px;
+}
+.gallerbox h5 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: black;
+  padding-bottom: 0;
+}
+.gallerbox p {
+  color: darkgray;
+  font-weight: lighter;
+}
+/* Galeri galeri galeri galeri galeri galeri galeri galeri galeri galeri galeri galeri */
+
+/* bebas bebas bebas bebaas bebas bebas bebaas bebas bebas bebas bebas bebas bebas bebas */
+.bebas {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  background-color: #16182c;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  border-top: 1px solid rgba(250, 250, 250, 0.15);
+}
+.bebas img {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+/* bebas bebas bebas bebaas bebas bebas bebaas bebas bebas bebas bebas bebas bebas bebas */
+
+/* footer */
+.fot {
+  background-color: #23283c;
+  padding: 50px 100px 50px 100px;
+}
+.fot ul li {
+  list-style: none;
+}
+.fot ul li h6 {
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  padding: 0px 5px 10px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fot ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: smaller;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fot ul li a:hover {
+  color: darkorange;
+}
+.fot ul li h6,
+a {
+  padding-right: 10px;
+  font-size: small;
+}
+.sim a {
+  padding-top: 40px;
+  color: white;
+}
+.sim a:hover {
+  color: darkorange;
+}
+.lis {
+  background-color: #16182c;
+}
+/* footer selesai */
+
+/* i love online class */

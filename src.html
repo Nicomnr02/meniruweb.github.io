@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>2081015_tugas5</title>
+    <style>
+        img{
+            width:20%;
+            vertical-align:baseline;
+        }
+    </style>
+</head>
+<body>
+   <a href ="https:fti.unai.edu"><img src="logo unai.png" alt="logo FTI UNAI" align="left"></a><br>
+   <h1> Fakultas Teknologi informasi</h1><br>
+   <h2><u><b>Formulir Biodata</b></u></h2>
+   <p>Masukkan biodata anda dibawah ini</p>
+   <form><table>
+    <tr>
+        <td><label for="Nama Depan"> Nama Depan : </label></td>
+        <td><input type="text" id="Nama Depan" placeholder="Ketikkan Nama Depan anda"></td>
+    </tr>
+        <br>
+    <tr>
+        <td><label for="Nama Belakang">Nama Belakang :</label></td>
+        <td><input type="text" id="Nama Belakang" placeholder="Ketikkan Nama Belakang anda">
+    </tr>
+        <br>
+    <tr>
+        <td><label for="Tanggal Lahir">Tanggal Lahir :</label></td>
+        <td><input type="date" id="Tanggal Lahir" name="Tanggal Lahir"></td>
+    </tr>
+        <br>
+    <tr>
+        <label for="NIM">NIM :</label>
+        <input type="number" id="NIM" placeholder="Ketkkan NIM anda">
+    </tr>
+        <br>
+
+        <label for="Email">Email :</label>
+        <input type="email" id="Email"> 
+        <br>
+        <label for="Password">Password :</label>
+        <input type="password" id="Password">
+        <br>
+        <label>Jenis Kelamin:</label>
+        <input type="radio" id="Laki-laki" name="Jenis Kelamin">
+        <label for="Laki-laki">Laki-laki</label>
+        <input type="radio" id="Perempuan" name="Jenis Kelamin">
+        <label for="Perempuan">Perempuan</label>
+        <br>
+        <label>Hobby :</label>
+        <input type="checkbox" id="Olahraga" name="hobi">
+        <label for="Olahraga">Olahraga</label>
+        <input type="checkbox" id="Buat Lagu" name="hobi">
+        <label for="Buat Lagu">Buat Lagu</label>
+        <input type="checkbox" id="Main musik" name="hobi">
+        <label for="Main musik">Main musik</label>
+        <br>
+        <label for>Agama :</label>
+        <select name ="Agama">
+            <option>Pilih Agama</option>
+            <option placeholder="kristen protestan">kristen protestan</option>
+            <option placeholder="katolik">katolik</option>
+            <option placeholder="Islam">Islam</option>
+            <option placeholder="Budha">Budha</option>
+            <option placeholder="Hindu">Hindu</option>
+        </select>
+        <br>-=
+        
+        <label for="message">Komentar :</label>
+        <textarea name="Komentar" id="message" rows="10" cols="30"> Isi komentar anda disini</textarea>
+        <br>
+        <input type="submit" value="Simpan">
+        <input type="reset">
+    </form>
+</body>
+</html>
